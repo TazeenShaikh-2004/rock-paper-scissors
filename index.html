@@ -34,15 +34,22 @@
   <body>
     <h1>ROCK PAPER SCISSORS</h1>
     <div class="container">
-      <p>Your Choice :</p>
-      <p>Computer's Choice :</p>
-      <p>Result :</p>
+      <p id="user">Your Choice :</p>
+      <p id="syschoice">Computer's Choice :</p>
+      <p id="result">Result :</p>
       <button onclick="display()">Start</button>
     </div>
+    <h1 class="heading">Select Your Choice</h1>
     <div class="btn-grp">
-      <button>Rock <i class="fa-solid fa-hand-back-fist"></i></button>
-      <button>Paper <i class="fa-solid fa-hand"></i></button>
-      <button>Scissors <i class="fa-solid fa-scissors"></i></button>
+      <button onclick="calculateresult('rock')">
+        Rock <i class="fa-solid fa-hand-back-fist"></i>
+      </button>
+      <button onclick="calculateresult('paper')">
+        Paper <i class="fa-solid fa-hand"></i>
+      </button>
+      <button onclick="calculateresult('scissors')">
+        Scissors <i class="fa-solid fa-scissors"></i>
+      </button>
     </div>
     <script src="main.js"></script>
   </body>
