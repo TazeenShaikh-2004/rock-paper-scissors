@@ -1,31 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   background-image: 
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), 
-    url("https://img.freepik.com/premium-vector/dark-hexagon-gaming-abstract-vector-background-with-pink-blue-colored-bright-flashes_156943-1454.jpg?semt=ais_hybrid");
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+        url("https://img.freepik.com/premium-vector/dark-hexagon-gaming-abstract-vector-background-with-pink-blue-colored-bright-flashes_156943-1454.jpg?semt=ais_hybrid");
     background-color: #141313;
     color: #dce5ec;
 }
-h1{
+
+h1 {
     text-align: center;
     padding: 0 20px;
     margin-top: 20px;
 }
-.container{
+
+.container {
     text-align: center;
     padding: 30px 20px;
 }
-.container p{
+
+.container p {
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: bold;
 }
-.container button{
+
+.container button {
     padding: 8px 42px;
     margin-top: 20px;
     border-radius: 4px;
@@ -37,28 +42,42 @@ h1{
     font-size: 18px;
     cursor: pointer;
 }
-.container button:hover{
+
+.container button:hover {
     box-shadow: 0 8px 16px 0 rgba(227, 219, 219, 0.902);
 }
-.btn-grp{
+
+.btn-grp {
     display: flex;
     gap: 16px;
     justify-content: center;
 }
-.btn-grp button{
-   padding: 10px 32px;
-   font-size: 18px;
-   cursor: pointer;
-   border: 1px solid rgba(180, 77, 180, 0.637);
-   border-radius: 6px;
-   background-color: transparent;
-   color: rgb(251, 251, 251);
-   font-weight: bold;
-   box-shadow: rgba(118, 118, 118, 0.35) 0px 5px 15px;
+
+.btn-grp button {
+    padding: 10px 32px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid rgba(180, 77, 180, 0.637);
+    border-radius: 6px;
+    background-color: transparent;
+    color: rgb(251, 251, 251);
+    font-weight: bold;
+    box-shadow: rgba(118, 118, 118, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease;
+
 }
-.btn-grp,.heading{
+
+.btn-grp button:hover {
+    background-color: rgba(180, 77, 180, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(180, 77, 180, 0.5);
+}
+
+.btn-grp,
+.heading {
     display: none;
 }
-.heading{
+
+.heading {
     margin-bottom: 30px;
 }
